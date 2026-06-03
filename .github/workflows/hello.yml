@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
   # lists
     steps:
-      - name: say hello to users
+      - name: say hello to username
         run: echo "Hello Dosto"
 
       - name: say hello to satya
-        run: echo "Hello Satya"
+        run: echo "Hello $USER"
