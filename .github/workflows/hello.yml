@@ -1,6 +1,6 @@
 # This is workflow name
 name: Hello
-
+# runs on an automatic trigger , when change is push to branch (deployment)
 on: 
   push:
     branches: [main]
