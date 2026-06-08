@@ -32,7 +32,7 @@ jobs:
       - name: Test the container
         run: echo "Testing the container"
   deploy:
-      if: inputs.environment == 'dev'
+      if: inputs.environment == 'dev' # deploy will run if you are choose workflow dev 
       needs:
         - build
         - test
